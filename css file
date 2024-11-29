@@ -1,0 +1,109 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Back Button */
+.back-button {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+/* Headings */
+h1, h2 {
+    color: #5d4037;
+    margin: 10px 0;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+/* Buttons */
+button, .submit-btn {
+    background-color: #8d6e63;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover, .submit-btn:hover {
+    background-color: #6d4c41;
+}
+
+/* Star Rating */
+.star-rating {
+    font-size: 1.5em;
+    color: gold;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.average-stars {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Sort Options */
+.sort-btn, .sort-options button {
+    display: inline-block;
+    margin: 5px 2px;
+    font-size: 0.9em;
+    background-color: #d7ccc8;
+}
+
+.sort-options button:hover {
+    background-color: #bcaaa4;
+}
+
+/* Success Screens */
+.success-screen {
+    text-align: center;
+    padding: 40px;
+}
+
+.hidden {
+    display: none;
+}
